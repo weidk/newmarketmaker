@@ -1,0 +1,11 @@
+# CLI tool, only in development environment.
+# https://goframe.org/pages/viewpage.action?pageId=3673173
+gfcli:
+  gen:
+    dao:
+#      - link: "oracle:quote:quote@tcp(192.168.9.27:1521)/ORCL"
+#        tables: "MM_QUOTE_SET"
+#        jsonCase: "CamelLower"
+      - link: "oracle:NEWRMBTRADE:NEWRMBTRADE@tcp(10.18.7.23:1521)/ORCL"
+        tables: "CBMARKETQUOTE"
+        jsonCase: "CamelLower"

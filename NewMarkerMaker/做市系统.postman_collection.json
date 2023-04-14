@@ -1,0 +1,245 @@
+{
+	"info": {
+		"_postman_id": "428806ee-9086-4c6f-ac27-76d4042d50c4",
+		"name": "做市系统",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "发送单笔报价",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"user-agent": true,
+					"accept": true,
+					"accept-encoding": true,
+					"connection": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"TYPE\": \"M\",\r\n    \"BONDCODE\": \"200210\",\r\n    \"MAXFLOOR\": 10000000,\r\n    \"BUYORDERQTY\": 30000000,\r\n    \"BUYYTMYILED\": 3.025,\r\n    \"SELLORDERQTY\": 30000000,\r\n    \"SELLYTMYILED\": 3.015,\r\n    \"SETTLTYPE\": 2\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.9.145:8000/api/onemmquote",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"9",
+						"145"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"onemmquote"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "计算器测试环境",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"clearSpeed\": \"1\",\r\n  \"currencyRate\": \"\",\r\n  \"price\": \"100\",\r\n  \"securityId\": \"180210\",\r\n  \"settleCurrency\": \"CNY\",\r\n  \"settleDay\": \"\",\r\n  \"strikeYield\": \"\",\r\n  \"taxesAccrued\": \"\",\r\n  \"tradeDate\": \"20191029\",\r\n  \"yield\": \"\",\r\n  \"transportSession\":\"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.87.235:8899/applyCalculateResult",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"87",
+						"235"
+					],
+					"port": "8899",
+					"path": [
+						"applyCalculateResult"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "初始化参数",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.9.145:8000/api/InitMMQuote",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"9",
+						"145"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"InitMMQuote"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "批量发送报价",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.9.145:8000/api/BatchSendMMQuote",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"9",
+						"145"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"BatchSendMMQuote"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "开始或停止自动做市策略",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"data\":true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.9.145:8000/api/SetAutoMM",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"9",
+						"145"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"SetAutoMM"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "撤销报价",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"data\":\"230414020410080086\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.9.145:8000/api/cancelmmquote",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"9",
+						"145"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"cancelmmquote"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "批量撤销报价",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.9.145:8000/api/BatchCancelMMQuoteApi",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"9",
+						"145"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"BatchCancelMMQuoteApi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "设置是否可以报价",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cansend\": true,\r\n    \"bondcode\": \"200305\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.9.145:8000/api/SetMMCanSendApi",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"9",
+						"145"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"SetMMCanSendApi"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

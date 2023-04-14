@@ -1,0 +1,54 @@
+2023-03-06 14:57:16.610 [ERRO] {bce2386e2dc24917bedd357d1a96a870} Exception (403) Reason: "ACCESS_REFUSED - operation not permitted on the default exchange"
+Stack:
+1.  NewMarkerMaker/internal/consts.LogOnError
+    D:/Work/NewMM/NewMarkerMaker/internal/consts/consts.go:36
+2.  NewMarkerMaker/internal/logic.ReceiveHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/hqMq.go:35
+3.  main.main
+    D:/Work/NewMM/NewMarkerMaker/main.go:10
+
+2023-03-06 14:57:16.611 [ERRO] {bce2386e2dc24917bedd357d1a96a870} Exception (504) Reason: "channel/connection is not open"
+Stack:
+1.  NewMarkerMaker/internal/consts.LogOnError
+    D:/Work/NewMM/NewMarkerMaker/internal/consts/consts.go:36
+2.  NewMarkerMaker/internal/logic.ReceiveHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/hqMq.go:46
+3.  main.main
+    D:/Work/NewMM/NewMarkerMaker/main.go:10
+
+2023-03-06 14:58:22.241 [ERRO] {d042baac35c249175715c85eb67a03c6} Exception (403) Reason: "ACCESS_REFUSED - operation not permitted on the default exchange"
+Stack:
+1.  NewMarkerMaker/internal/consts.LogOnError
+    D:/Work/NewMM/NewMarkerMaker/internal/consts/consts.go:36
+2.  NewMarkerMaker/internal/logic.ReceiveHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/hqMq.go:35
+3.  main.main
+    D:/Work/NewMM/NewMarkerMaker/main.go:10
+
+2023-03-06 14:58:26.436 [ERRO] {d042baac35c249175715c85eb67a03c6} Exception (504) Reason: "channel/connection is not open"
+Stack:
+1.  NewMarkerMaker/internal/consts.LogOnError
+    D:/Work/NewMM/NewMarkerMaker/internal/consts/consts.go:36
+2.  NewMarkerMaker/internal/logic.ReceiveHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/hqMq.go:46
+3.  main.main
+    D:/Work/NewMM/NewMarkerMaker/main.go:10
+
+2023-03-06 15:02:12.315 [ERRO] {e0df834972c249175af4d80e66797daf} Exception (504) Reason: "channel/connection is not open"
+Stack:
+1.  NewMarkerMaker/internal/consts.LogOnError
+    D:/Work/NewMM/NewMarkerMaker/internal/consts/consts.go:36
+2.  NewMarkerMaker/internal/logic.ReceiveHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/hqMq.go:35
+3.  main.main
+    D:/Work/NewMM/NewMarkerMaker/main.go:10
+
+2023-03-06 15:02:34.806 [ERRO] {a4df468677c249179f539b31e75bb833} Exception (504) Reason: "channel/connection is not open"
+Stack:
+1.  NewMarkerMaker/internal/consts.LogOnError
+    D:/Work/NewMM/NewMarkerMaker/internal/consts/consts.go:36
+2.  NewMarkerMaker/internal/logic.ReceiveHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/hqMq.go:35
+3.  main.main
+    D:/Work/NewMM/NewMarkerMaker/main.go:10
+

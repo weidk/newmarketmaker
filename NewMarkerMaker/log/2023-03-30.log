@@ -1,0 +1,1103 @@
+2023-03-30 13:34:34.802 [INFO] rabbitmq connection is established
+2023-03-30 13:35:48.645 [INFO] rabbitmq connection is established
+2023-03-30 13:50:50.591 [INFO] rabbitmq connection is established
+2023-03-30 14:03:36.178 [INFO] rabbitmq connection is established
+2023-03-30 14:09:01.938 [INFO] rabbitmq connection is established
+2023-03-30 15:00:58.221 [INFO] rabbitmq connection is established
+2023-03-30 15:01:08.107 [INFO] rabbitmq connection is established
+2023-03-30 15:14:56.989 [INFO] rabbitmq connection is established
+2023-03-30 15:19:48.899 [INFO] rabbitmq connection is established
+2023-03-30 15:30:29.550 [INFO] rabbitmq connection is established
+2023-03-30 15:31:20.349 [ERRO] 净价计算失败，取消发送该笔报价{"TYPE":"","CLORDID":"","QUOTEID":"","QUOTESTATUS":"","BONDCODE":"","MAXFLOOR":0,"BUYORDERQTY":0,"BUYPRICE":0,"BUYYTMYILED":0,"BUYDEALQTY":0,"SELLORDERQTY":0,"SELLPRICE":0,"SELLYTMYILED":0,"SELLDEALQTY":0,"SETTLTYPE":0,"ORDERTIME":"","TRANSACTTIME":"","INFO":""}
+Stack:
+1.  NewMarkerMaker/internal/logic.SendMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/QuoteLogic.go:19
+2.  NewMarkerMaker/internal/controller.SendTestMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/controller/testQuote.go:46
+3.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:131
+4.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+5.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:129
+6.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:90
+7.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+8.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:89
+9.  github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+11. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_middleware_tracing.go:78
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:96
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+17. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_server_handler.go:121
+
+2023-03-30 15:32:48.923 [INFO] rabbitmq connection is established
+2023-03-30 15:35:36.929 [INFO] rabbitmq connection is established
+2023-03-30 15:35:43.002 [INFO] rabbitmq connection is established
+2023-03-30 15:38:14.476 [ERRO] 净价计算失败，取消发送该笔报价{"TYPE":"","CLORDID":"QRdhzqtrd053814308","QUOTEID":"","QUOTESTATUS":"","BONDCODE":"","MAXFLOOR":0,"BUYORDERQTY":0,"BUYPRICE":0,"BUYYTMYILED":0,"BUYDEALQTY":0,"SELLORDERQTY":0,"SELLPRICE":0,"SELLYTMYILED":0,"SELLDEALQTY":0,"SETTLTYPE":0,"ORDERTIME":"2023-03-30 15:38:14","TRANSACTTIME":"","INFO":""}
+Stack:
+1.  NewMarkerMaker/internal/logic.SendMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/QuoteLogic.go:19
+2.  NewMarkerMaker/internal/controller.SendTestMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/controller/testQuote.go:47
+3.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:131
+4.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+5.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:129
+6.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:90
+7.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+8.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:89
+9.  github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+11. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_middleware_tracing.go:78
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:96
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+17. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_server_handler.go:121
+
+2023-03-30 15:38:35.919 [INFO] rabbitmq connection is established
+2023-03-30 15:48:35.234 [INFO] rabbitmq connection is established
+2023-03-30 15:50:02.045 [INFO] rabbitmq connection is established
+2023-03-30 15:51:00.018 [INFO] rabbitmq connection is established
+2023-03-30 15:51:01.261 [INFO] rabbitmq connection is established
+2023-03-30 15:51:17.159 [INFO] rabbitmq connection is established
+2023-03-30 15:51:34.315 [INFO] rabbitmq connection is established
+2023-03-30 15:53:50.210 [INFO] rabbitmq connection is established
+2023-03-30 16:03:01.705 [INFO] rabbitmq connection is established
+2023-03-30 16:11:21.437 [INFO] rabbitmq connection is established
+2023-03-30 16:14:00.659 [INFO] rabbitmq connection is established
+2023-03-30 16:15:11.672 [INFO] rabbitmq connection is established
+2023-03-30 16:19:15.590 [INFO] rabbitmq connection is established
+2023-03-30 16:24:35.935 [INFO] rabbitmq connection is established
+2023-03-30 16:27:43.636 [ERRO] 净价计算失败，取消发送该笔报价{"TYPE":"","CLORDID":"QRdhzqtrd062743508","QUOTEID":"","QUOTESTATUS":"","BONDCODE":"","MAXFLOOR":0,"BUYORDERQTY":0,"BUYPRICE":0,"BUYYTMYILED":0,"BUYDEALQTY":0,"SELLORDERQTY":0,"SELLPRICE":0,"SELLYTMYILED":0,"SELLDEALQTY":0,"SETTLTYPE":0,"ORDERTIME":"2023-03-30 16:27:43","TRANSACTTIME":"","INFO":""}
+Stack:
+1.  NewMarkerMaker/internal/logic.SendMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/QuoteLogic.go:19
+2.  NewMarkerMaker/internal/controller.SendTestMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/controller/testQuote.go:28
+3.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:131
+4.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+5.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:129
+6.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:90
+7.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+8.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:89
+9.  github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+11. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_middleware_tracing.go:78
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:96
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+17. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_server_handler.go:121
+
+2023-03-30 16:28:27.651 [INFO] rabbitmq connection is established
+2023-03-30 16:28:29.361 [INFO] rabbitmq connection is established
+2023-03-30 16:28:42.880 [ERRO] 净价计算失败，取消发送该笔报价{"TYPE":"","CLORDID":"QRdhzqtrd062842759","QUOTEID":"","QUOTESTATUS":"","BONDCODE":"","MAXFLOOR":0,"BUYORDERQTY":0,"BUYPRICE":0,"BUYYTMYILED":0,"BUYDEALQTY":0,"SELLORDERQTY":0,"SELLPRICE":0,"SELLYTMYILED":0,"SELLDEALQTY":0,"SETTLTYPE":0,"ORDERTIME":"2023-03-30 16:28:42","TRANSACTTIME":"","INFO":""}
+Stack:
+1.  NewMarkerMaker/internal/logic.SendMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/QuoteLogic.go:19
+2.  NewMarkerMaker/internal/controller.SendTestMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/controller/testQuote.go:28
+3.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:131
+4.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+5.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:129
+6.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:90
+7.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+8.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:89
+9.  github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+11. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_middleware_tracing.go:78
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:96
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+17. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_server_handler.go:121
+
+2023-03-30 16:29:55.341 [ERRO] 净价计算失败，取消发送该笔报价{"TYPE":"","CLORDID":"QRdhzqtrd062955256","QUOTEID":"","QUOTESTATUS":"","BONDCODE":"","MAXFLOOR":0,"BUYORDERQTY":0,"BUYPRICE":0,"BUYYTMYILED":0,"BUYDEALQTY":0,"SELLORDERQTY":0,"SELLPRICE":0,"SELLYTMYILED":0,"SELLDEALQTY":0,"SETTLTYPE":0,"ORDERTIME":"2023-03-30 16:29:55","TRANSACTTIME":"","INFO":""}
+Stack:
+1.  NewMarkerMaker/internal/logic.SendMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/QuoteLogic.go:19
+2.  NewMarkerMaker/internal/controller.SendTestMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/controller/testQuote.go:28
+3.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:131
+4.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+5.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:129
+6.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:90
+7.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+8.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:89
+9.  github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+11. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_middleware_tracing.go:78
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:96
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+17. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_server_handler.go:121
+
+2023-03-30 16:30:26.960 [ERRO] 净价计算失败，取消发送该笔报价{"TYPE":"","CLORDID":"QRdhzqtrd063026874","QUOTEID":"","QUOTESTATUS":"","BONDCODE":"","MAXFLOOR":0,"BUYORDERQTY":0,"BUYPRICE":0,"BUYYTMYILED":0,"BUYDEALQTY":0,"SELLORDERQTY":0,"SELLPRICE":0,"SELLYTMYILED":0,"SELLDEALQTY":0,"SETTLTYPE":0,"ORDERTIME":"2023-03-30 16:30:26","TRANSACTTIME":"","INFO":""}
+Stack:
+1.  NewMarkerMaker/internal/logic.SendMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/QuoteLogic.go:19
+2.  NewMarkerMaker/internal/controller.SendTestMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/controller/testQuote.go:28
+3.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:131
+4.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+5.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:129
+6.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:90
+7.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+8.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:89
+9.  github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+11. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_middleware_tracing.go:78
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:96
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+17. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_server_handler.go:121
+
+2023-03-30 16:30:48.698 [ERRO] 净价计算失败，取消发送该笔报价{"TYPE":"","CLORDID":"QRdhzqtrd063048604","QUOTEID":"","QUOTESTATUS":"","BONDCODE":"","MAXFLOOR":0,"BUYORDERQTY":0,"BUYPRICE":0,"BUYYTMYILED":0,"BUYDEALQTY":0,"SELLORDERQTY":0,"SELLPRICE":0,"SELLYTMYILED":0,"SELLDEALQTY":0,"SETTLTYPE":0,"ORDERTIME":"2023-03-30 16:30:48","TRANSACTTIME":"","INFO":""}
+Stack:
+1.  NewMarkerMaker/internal/logic.SendMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/QuoteLogic.go:19
+2.  NewMarkerMaker/internal/controller.SendTestMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/controller/testQuote.go:28
+3.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:131
+4.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+5.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:129
+6.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:90
+7.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+8.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:89
+9.  github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+11. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_middleware_tracing.go:78
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:96
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+17. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_server_handler.go:121
+
+2023-03-30 16:34:12.688 [ERRO] 净价计算失败，取消发送该笔报价{"TYPE":"M","CLORDID":"QRdhzqtrd063412533","QUOTEID":"","QUOTESTATUS":"","BONDCODE":"130015","MAXFLOOR":10000000,"BUYORDERQTY":30000000,"BUYPRICE":0,"BUYYTMYILED":3.025,"BUYDEALQTY":0,"SELLORDERQTY":30000000,"SELLPRICE":0,"SELLYTMYILED":3.015,"SELLDEALQTY":0,"SETTLTYPE":2,"ORDERTIME":"2023-03-30 16:34:12","TRANSACTTIME":"","INFO":""}
+Stack:
+1.  NewMarkerMaker/internal/logic.SendMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/QuoteLogic.go:19
+2.  NewMarkerMaker/internal/controller.SendTestMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/controller/testQuote.go:28
+3.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:131
+4.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+5.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:129
+6.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:90
+7.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+8.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:89
+9.  github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+11. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_middleware_tracing.go:78
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:96
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+17. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_server_handler.go:121
+
+2023-03-30 16:34:17.467 [ERRO] 净价计算失败，取消发送该笔报价{"TYPE":"","CLORDID":"QRdhzqtrd063417377","QUOTEID":"","QUOTESTATUS":"","BONDCODE":"","MAXFLOOR":0,"BUYORDERQTY":0,"BUYPRICE":0,"BUYYTMYILED":0,"BUYDEALQTY":0,"SELLORDERQTY":0,"SELLPRICE":0,"SELLYTMYILED":0,"SELLDEALQTY":0,"SETTLTYPE":0,"ORDERTIME":"2023-03-30 16:34:17","TRANSACTTIME":"","INFO":""}
+Stack:
+1.  NewMarkerMaker/internal/logic.SendMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/QuoteLogic.go:19
+2.  NewMarkerMaker/internal/controller.SendTestMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/controller/testQuote.go:28
+3.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:131
+4.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+5.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:129
+6.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:90
+7.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+8.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:89
+9.  github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+11. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_middleware_tracing.go:78
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:96
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+17. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_server_handler.go:121
+
+2023-03-30 16:35:00.635 [ERRO] 净价计算失败，取消发送该笔报价{"TYPE":"M","CLORDID":"QRdhzqtrd063500456","QUOTEID":"","QUOTESTATUS":"","BONDCODE":"130015","MAXFLOOR":10000000,"BUYORDERQTY":30000000,"BUYPRICE":0,"BUYYTMYILED":3.025,"BUYDEALQTY":0,"SELLORDERQTY":30000000,"SELLPRICE":0,"SELLYTMYILED":3.015,"SELLDEALQTY":0,"SETTLTYPE":2,"ORDERTIME":"2023-03-30 16:35:00","TRANSACTTIME":"","INFO":""}
+Stack:
+1.  NewMarkerMaker/internal/logic.SendMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/QuoteLogic.go:19
+2.  NewMarkerMaker/internal/controller.SendTestMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/controller/testQuote.go:28
+3.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:131
+4.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+5.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:129
+6.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:90
+7.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+8.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:89
+9.  github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+11. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_middleware_tracing.go:78
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:96
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+17. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_server_handler.go:121
+
+2023-03-30 16:36:56.161 [ERRO] 净价计算失败，取消发送该笔报价{"TYPE":"M","CLORDID":"QRdhzqtrd063549318","QUOTEID":"","QUOTESTATUS":"","BONDCODE":"130015","MAXFLOOR":10000000,"BUYORDERQTY":30000000,"BUYPRICE":0,"BUYYTMYILED":3.025,"BUYDEALQTY":0,"SELLORDERQTY":30000000,"SELLPRICE":0,"SELLYTMYILED":3.015,"SELLDEALQTY":0,"SETTLTYPE":2,"ORDERTIME":"2023-03-30 16:36:56","TRANSACTTIME":"","INFO":""}
+Stack:
+1.  NewMarkerMaker/internal/logic.SendMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/QuoteLogic.go:19
+2.  NewMarkerMaker/internal/controller.SendTestMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/controller/testQuote.go:28
+3.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:131
+4.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+5.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:129
+6.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:90
+7.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+8.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:89
+9.  github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+11. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_middleware_tracing.go:78
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:96
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+17. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_server_handler.go:121
+
+2023-03-30 16:38:20.265 [INFO] rabbitmq connection is established
+2023-03-30 16:38:28.098 [ERRO] 计算错误
+Stack:
+1.  NewMarkerMaker/internal/logic.CalBondPrice
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/quoteUtils.go:44
+2.  NewMarkerMaker/internal/controller.SendTestMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/controller/testQuote.go:24
+3.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:131
+4.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+5.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:129
+6.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:90
+7.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+8.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:89
+9.  github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+11. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_middleware_tracing.go:78
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:96
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+17. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_server_handler.go:121
+
+2023-03-30 16:38:30.076 [ERRO] 计算错误
+Stack:
+1.  NewMarkerMaker/internal/logic.CalBondPrice
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/quoteUtils.go:44
+2.  NewMarkerMaker/internal/controller.SendTestMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/controller/testQuote.go:25
+3.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:131
+4.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+5.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:129
+6.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:90
+7.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+8.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:89
+9.  github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+11. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_middleware_tracing.go:78
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:96
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+17. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_server_handler.go:121
+
+2023-03-30 16:38:30.076 [ERRO] 净价计算失败，取消发送该笔报价{"TYPE":"M","CLORDID":"QRdhzqtrd063826172","QUOTEID":"","QUOTESTATUS":"","BONDCODE":"130015","MAXFLOOR":10000000,"BUYORDERQTY":30000000,"BUYPRICE":0,"BUYYTMYILED":3.025,"BUYDEALQTY":0,"SELLORDERQTY":30000000,"SELLPRICE":0,"SELLYTMYILED":3.015,"SELLDEALQTY":0,"SETTLTYPE":2,"ORDERTIME":"2023-03-30 16:38:30","TRANSACTTIME":"","INFO":""}
+Stack:
+1.  NewMarkerMaker/internal/logic.SendMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/QuoteLogic.go:19
+2.  NewMarkerMaker/internal/controller.SendTestMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/controller/testQuote.go:28
+3.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:131
+4.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+5.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:129
+6.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:90
+7.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+8.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:89
+9.  github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+11. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_middleware_tracing.go:78
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:96
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+17. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_server_handler.go:121
+
+2023-03-30 16:54:39.052 [ERRO] ODM发送计算至交易中心失败
+Stack:
+1.  NewMarkerMaker/internal/logic.CalBondPrice
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/quoteUtils.go:44
+2.  NewMarkerMaker/internal/controller.SendTestMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/controller/testQuote.go:24
+3.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:131
+4.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+5.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:129
+6.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:90
+7.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+8.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:89
+9.  github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+11. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_middleware_tracing.go:78
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:96
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+17. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_server_handler.go:121
+
+2023-03-30 16:54:39.096 [ERRO] ODM发送计算至交易中心失败
+Stack:
+1.  NewMarkerMaker/internal/logic.CalBondPrice
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/quoteUtils.go:44
+2.  NewMarkerMaker/internal/controller.SendTestMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/controller/testQuote.go:25
+3.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:131
+4.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+5.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:129
+6.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:90
+7.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+8.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:89
+9.  github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+11. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_middleware_tracing.go:78
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:96
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+17. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_server_handler.go:121
+
+2023-03-30 16:54:39.096 [ERRO] 净价计算失败，取消发送该笔报价{"TYPE":"","CLORDID":"QRdhzqtrd065438931","QUOTEID":"","QUOTESTATUS":"","BONDCODE":"","MAXFLOOR":0,"BUYORDERQTY":0,"BUYPRICE":0,"BUYYTMYILED":0,"BUYDEALQTY":0,"SELLORDERQTY":0,"SELLPRICE":0,"SELLYTMYILED":0,"SELLDEALQTY":0,"SETTLTYPE":0,"ORDERTIME":"2023-03-30 16:54:39","TRANSACTTIME":"","INFO":""}
+Stack:
+1.  NewMarkerMaker/internal/logic.SendMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/QuoteLogic.go:19
+2.  NewMarkerMaker/internal/controller.SendTestMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/controller/testQuote.go:28
+3.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:131
+4.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+5.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:129
+6.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:90
+7.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+8.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:89
+9.  github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+11. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_middleware_tracing.go:78
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:96
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+17. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_server_handler.go:121
+
+2023-03-30 16:55:06.066 [ERRO] ODM发送计算至交易中心失败
+Stack:
+1.  NewMarkerMaker/internal/logic.CalBondPrice
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/quoteUtils.go:44
+2.  NewMarkerMaker/internal/controller.SendTestMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/controller/testQuote.go:24
+3.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:131
+4.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+5.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:129
+6.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:90
+7.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+8.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:89
+9.  github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+11. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_middleware_tracing.go:78
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:96
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+17. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_server_handler.go:121
+
+2023-03-30 16:55:06.107 [ERRO] ODM发送计算至交易中心失败
+Stack:
+1.  NewMarkerMaker/internal/logic.CalBondPrice
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/quoteUtils.go:44
+2.  NewMarkerMaker/internal/controller.SendTestMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/controller/testQuote.go:25
+3.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:131
+4.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+5.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:129
+6.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:90
+7.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+8.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:89
+9.  github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+11. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_middleware_tracing.go:78
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:96
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+17. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_server_handler.go:121
+
+2023-03-30 16:55:06.107 [ERRO] 净价计算失败，取消发送该笔报价{"TYPE":"","CLORDID":"QRdhzqtrd065506024","QUOTEID":"","QUOTESTATUS":"","BONDCODE":"","MAXFLOOR":0,"BUYORDERQTY":0,"BUYPRICE":0,"BUYYTMYILED":0,"BUYDEALQTY":0,"SELLORDERQTY":0,"SELLPRICE":0,"SELLYTMYILED":0,"SELLDEALQTY":0,"SETTLTYPE":0,"ORDERTIME":"2023-03-30 16:55:06","TRANSACTTIME":"","INFO":""}
+Stack:
+1.  NewMarkerMaker/internal/logic.SendMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/QuoteLogic.go:19
+2.  NewMarkerMaker/internal/controller.SendTestMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/controller/testQuote.go:28
+3.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:131
+4.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+5.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:129
+6.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:90
+7.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+8.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:89
+9.  github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+11. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_middleware_tracing.go:78
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:96
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+17. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_server_handler.go:121
+
+2023-03-30 16:58:56.773 [ERRO] ODM发送计算至交易中心失败
+Stack:
+1.  NewMarkerMaker/internal/logic.CalBondPrice
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/quoteUtils.go:44
+2.  NewMarkerMaker/internal/controller.SendTestMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/controller/testQuote.go:24
+3.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:131
+4.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+5.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:129
+6.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:90
+7.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+8.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:89
+9.  github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+11. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_middleware_tracing.go:78
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:96
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+17. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_server_handler.go:121
+
+2023-03-30 16:58:56.862 [ERRO] ODM发送计算至交易中心失败
+Stack:
+1.  NewMarkerMaker/internal/logic.CalBondPrice
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/quoteUtils.go:44
+2.  NewMarkerMaker/internal/controller.SendTestMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/controller/testQuote.go:25
+3.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:131
+4.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+5.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:129
+6.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:90
+7.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+8.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:89
+9.  github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+11. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_middleware_tracing.go:78
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:96
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+17. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_server_handler.go:121
+
+2023-03-30 16:58:56.862 [ERRO] 净价计算失败，取消发送该笔报价{"TYPE":"","CLORDID":"QRdhzqtrd065856634","QUOTEID":"","QUOTESTATUS":"","BONDCODE":"","MAXFLOOR":0,"BUYORDERQTY":0,"BUYPRICE":0,"BUYYTMYILED":0,"BUYDEALQTY":0,"SELLORDERQTY":0,"SELLPRICE":0,"SELLYTMYILED":0,"SELLDEALQTY":0,"SETTLTYPE":0,"ORDERTIME":"2023-03-30 16:58:56","TRANSACTTIME":"","INFO":""}
+Stack:
+1.  NewMarkerMaker/internal/logic.SendMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/QuoteLogic.go:19
+2.  NewMarkerMaker/internal/controller.SendTestMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/controller/testQuote.go:28
+3.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:131
+4.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+5.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:129
+6.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:90
+7.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+8.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:89
+9.  github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+11. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_middleware_tracing.go:78
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:96
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+17. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_server_handler.go:121
+
+2023-03-30 18:29:12.152 [ERRO] ODM发送计算至交易中心失败
+Stack:
+1.  NewMarkerMaker/internal/logic.CalBondPrice
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/quoteUtils.go:44
+2.  NewMarkerMaker/internal/controller.SendTestMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/controller/testQuote.go:24
+3.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:131
+4.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+5.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:129
+6.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:90
+7.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+8.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:89
+9.  github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+11. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_middleware_tracing.go:78
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:96
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+17. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_server_handler.go:121
+
+2023-03-30 18:29:12.194 [ERRO] ODM发送计算至交易中心失败
+Stack:
+1.  NewMarkerMaker/internal/logic.CalBondPrice
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/quoteUtils.go:44
+2.  NewMarkerMaker/internal/controller.SendTestMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/controller/testQuote.go:25
+3.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:131
+4.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+5.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:129
+6.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:90
+7.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+8.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:89
+9.  github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+11. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_middleware_tracing.go:78
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:96
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+17. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_server_handler.go:121
+
+2023-03-30 18:29:12.195 [ERRO] 净价计算失败，取消发送该笔报价{"TYPE":"","CLORDID":"QRdhzqtrd082912072","QUOTEID":"","QUOTESTATUS":"","BONDCODE":"","MAXFLOOR":0,"BUYORDERQTY":0,"BUYPRICE":0,"BUYYTMYILED":0,"BUYDEALQTY":0,"SELLORDERQTY":0,"SELLPRICE":0,"SELLYTMYILED":0,"SELLDEALQTY":0,"SETTLTYPE":0,"ORDERTIME":"2023-03-30 18:29:12","TRANSACTTIME":"","INFO":""}
+Stack:
+1.  NewMarkerMaker/internal/logic.SendMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/QuoteLogic.go:19
+2.  NewMarkerMaker/internal/controller.SendTestMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/controller/testQuote.go:28
+3.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:131
+4.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+5.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:129
+6.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:90
+7.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+8.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:89
+9.  github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+11. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_middleware_tracing.go:78
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:96
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+17. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_server_handler.go:121
+
+2023-03-30 19:08:58.439 [ERRO] ODM发送计算至交易中心失败
+Stack:
+1.  NewMarkerMaker/internal/logic.CalBondPrice
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/quoteUtils.go:44
+2.  NewMarkerMaker/internal/controller.SendTestMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/controller/testQuote.go:24
+3.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:131
+4.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+5.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:129
+6.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:90
+7.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+8.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:89
+9.  github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+11. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_middleware_tracing.go:78
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:96
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+17. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_server_handler.go:121
+
+2023-03-30 19:08:58.496 [ERRO] ODM发送计算至交易中心失败
+Stack:
+1.  NewMarkerMaker/internal/logic.CalBondPrice
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/quoteUtils.go:44
+2.  NewMarkerMaker/internal/controller.SendTestMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/controller/testQuote.go:25
+3.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:131
+4.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+5.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:129
+6.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:90
+7.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+8.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:89
+9.  github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+11. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_middleware_tracing.go:78
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:96
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+17. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_server_handler.go:121
+
+2023-03-30 19:08:58.496 [ERRO] 净价计算失败，取消发送该笔报价{"TYPE":"","CLORDID":"QRdhzqtrd090858357","QUOTEID":"","QUOTESTATUS":"","BONDCODE":"","MAXFLOOR":0,"BUYORDERQTY":0,"BUYPRICE":0,"BUYYTMYILED":0,"BUYDEALQTY":0,"SELLORDERQTY":0,"SELLPRICE":0,"SELLYTMYILED":0,"SELLDEALQTY":0,"SETTLTYPE":0,"ORDERTIME":"2023-03-30 19:08:58","TRANSACTTIME":"","INFO":""}
+Stack:
+1.  NewMarkerMaker/internal/logic.SendMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/QuoteLogic.go:19
+2.  NewMarkerMaker/internal/controller.SendTestMMQuote
+    D:/Work/NewMM/NewMarkerMaker/internal/controller/testQuote.go:28
+3.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:131
+4.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+5.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:129
+6.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:90
+7.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+8.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:89
+9.  github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+11. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_middleware_tracing.go:78
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:96
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:95
+15. github.com/gogf/gf/v2/util/gutil.TryCatch
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/util/gutil/gutil.go:56
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_request_middleware.go:49
+17. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    D:/Work/go/pkg/mod/github.com/gogf/gf/v2@v2.1.4/net/ghttp/ghttp_server_handler.go:121
+

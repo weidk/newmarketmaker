@@ -1,0 +1,345 @@
+2023-03-10 11:18:29.250 [WARN] connection closed, error %s Exception (501) Reason: "read tcp 192.168.9.145:17392->192.168.9.27:5672: wsarecv: An established connection was aborted by the software in your host machine."
+2023-03-10 11:18:29.267 [ERRO] dial tcp 192.168.9.27:5672: connectex: A socket operation was attempted to an unreachable network.
+Stack:
+1.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:66
+2.  NewMarkerMaker/internal/logic.Setup
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:37
+3.  NewMarkerMaker/internal/logic.ReConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:53
+
+2023-03-10 11:18:32.269 [ERRO] dial tcp 192.168.9.27:5672: connectex: A socket operation was attempted to an unreachable network.
+Stack:
+1.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:66
+2.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:68
+3.  NewMarkerMaker/internal/logic.Setup
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:37
+4.  NewMarkerMaker/internal/logic.ReConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:53
+
+2023-03-10 11:18:35.275 [ERRO] dial tcp 192.168.9.27:5672: connectex: A socket operation was attempted to an unreachable network.
+Stack:
+1.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:66
+2.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:68
+3.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:68
+4.  NewMarkerMaker/internal/logic.Setup
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:37
+5.  NewMarkerMaker/internal/logic.ReConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:53
+
+2023-03-10 11:18:38.281 [ERRO] dial tcp 192.168.9.27:5672: connectex: A socket operation was attempted to an unreachable host.
+Stack:
+1.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:66
+2.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:68
+3.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:68
+4.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:68
+5.  NewMarkerMaker/internal/logic.Setup
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:37
+6.  NewMarkerMaker/internal/logic.ReConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:53
+
+2023-03-10 11:18:41.289 [ERRO] dial tcp 192.168.9.27:5672: connectex: A socket operation was attempted to an unreachable host.
+Stack:
+1.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:66
+2.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:68
+3.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:68
+4.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:68
+5.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:68
+6.  NewMarkerMaker/internal/logic.Setup
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:37
+7.  NewMarkerMaker/internal/logic.ReConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:53
+
+2023-03-10 11:18:56.498 [WARN] connection closed, error %s Exception (501) Reason: "read tcp 192.168.9.145:1038->192.168.9.27:5672: wsarecv: An established connection was aborted by the software in your host machine."
+2023-03-10 11:18:56.498 [ERRO] dial tcp 192.168.9.27:5672: connectex: A socket operation was attempted to an unreachable network.
+Stack:
+1.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:66
+2.  NewMarkerMaker/internal/logic.Setup
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:37
+3.  NewMarkerMaker/internal/logic.ReConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:53
+
+2023-03-10 11:18:59.502 [ERRO] dial tcp 192.168.9.27:5672: connectex: A socket operation was attempted to an unreachable host.
+Stack:
+1.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:66
+2.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:68
+3.  NewMarkerMaker/internal/logic.Setup
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:37
+4.  NewMarkerMaker/internal/logic.ReConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:53
+
+2023-03-10 11:19:02.517 [ERRO] dial tcp 192.168.9.27:5672: connectex: A socket operation was attempted to an unreachable host.
+Stack:
+1.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:66
+2.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:68
+3.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:68
+4.  NewMarkerMaker/internal/logic.Setup
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:37
+5.  NewMarkerMaker/internal/logic.ReConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:53
+
+2023-03-10 11:21:47.406 [WARN] connection closed, error %s Exception (501) Reason: "read tcp 192.168.9.145:1159->192.168.9.27:5672: wsarecv: An established connection was aborted by the software in your host machine."
+2023-03-10 11:21:47.417 [ERRO] dial tcp 192.168.9.27:5672: connectex: A socket operation was attempted to an unreachable network.
+Stack:
+1.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:67
+2.  NewMarkerMaker/internal/logic.Setup
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:38
+3.  NewMarkerMaker/internal/logic.ReConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:54
+
+2023-03-10 11:21:50.424 [ERRO] dial tcp 192.168.9.27:5672: connectex: A socket operation was attempted to an unreachable network.
+Stack:
+1.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:67
+2.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:69
+3.  NewMarkerMaker/internal/logic.Setup
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:38
+4.  NewMarkerMaker/internal/logic.ReConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:54
+
+2023-03-10 11:21:53.430 [ERRO] dial tcp 192.168.9.27:5672: connectex: A socket operation was attempted to an unreachable host.
+Stack:
+1.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:67
+2.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:69
+3.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:69
+4.  NewMarkerMaker/internal/logic.Setup
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:38
+5.  NewMarkerMaker/internal/logic.ReConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:54
+
+2023-03-10 11:21:56.440 [ERRO] dial tcp 192.168.9.27:5672: connectex: A socket operation was attempted to an unreachable host.
+Stack:
+1.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:67
+2.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:69
+3.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:69
+4.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:69
+5.  NewMarkerMaker/internal/logic.Setup
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:38
+6.  NewMarkerMaker/internal/logic.ReConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:54
+
+2023-03-10 11:21:59.449 [ERRO] dial tcp 192.168.9.27:5672: connectex: A socket operation was attempted to an unreachable host.
+Stack:
+1.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:67
+2.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:69
+3.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:69
+4.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:69
+5.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:69
+6.  NewMarkerMaker/internal/logic.Setup
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:38
+7.  NewMarkerMaker/internal/logic.ReConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:54
+
+2023-03-10 11:22:53.608 [WARN] connection closed, error %s Exception (501) Reason: "read tcp 192.168.9.145:28313->192.168.9.27:5672: wsarecv: An established connection was aborted by the software in your host machine."
+2023-03-10 11:22:53.615 [ERRO] dial tcp 192.168.9.27:5672: connectex: A socket operation was attempted to an unreachable network.
+Stack:
+1.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:67
+2.  NewMarkerMaker/internal/logic.Setup
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:38
+3.  NewMarkerMaker/internal/logic.ReConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:54
+
+2023-03-10 11:22:56.619 [ERRO] dial tcp 192.168.9.27:5672: connectex: A socket operation was attempted to an unreachable network.
+Stack:
+1.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:67
+2.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:69
+3.  NewMarkerMaker/internal/logic.Setup
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:38
+4.  NewMarkerMaker/internal/logic.ReConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:54
+
+2023-03-10 11:22:59.623 [ERRO] dial tcp 192.168.9.27:5672: connectex: A socket operation was attempted to an unreachable network.
+Stack:
+1.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:67
+2.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:69
+3.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:69
+4.  NewMarkerMaker/internal/logic.Setup
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:38
+5.  NewMarkerMaker/internal/logic.ReConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:54
+
+2023-03-10 11:23:02.632 [ERRO] dial tcp 192.168.9.27:5672: connectex: A socket operation was attempted to an unreachable host.
+Stack:
+1.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:67
+2.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:69
+3.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:69
+4.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:69
+5.  NewMarkerMaker/internal/logic.Setup
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:38
+6.  NewMarkerMaker/internal/logic.ReConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:54
+
+2023-03-10 11:23:05.645 [ERRO] dial tcp 192.168.9.27:5672: connectex: A socket operation was attempted to an unreachable host.
+Stack:
+1.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:67
+2.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:69
+3.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:69
+4.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:69
+5.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:69
+6.  NewMarkerMaker/internal/logic.Setup
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:38
+7.  NewMarkerMaker/internal/logic.ReConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:54
+
+2023-03-10 11:26:07.241 [WARN] connection closed, error %s Exception (501) Reason: "read tcp 192.168.9.145:1326->192.168.9.27:5672: wsarecv: An established connection was aborted by the software in your host machine."
+2023-03-10 11:26:07.260 [ERRO] dial tcp 192.168.9.27:5672: connectex: A socket operation was attempted to an unreachable network.
+Stack:
+1.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:67
+2.  NewMarkerMaker/internal/logic.Setup
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:38
+3.  NewMarkerMaker/internal/logic.ReConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:54
+
+2023-03-10 11:26:10.272 [ERRO] dial tcp 192.168.9.27:5672: connectex: A socket operation was attempted to an unreachable network.
+Stack:
+1.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:67
+2.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:69
+3.  NewMarkerMaker/internal/logic.Setup
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:38
+4.  NewMarkerMaker/internal/logic.ReConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:54
+
+2023-03-10 11:26:13.274 [ERRO] dial tcp 192.168.9.27:5672: connectex: A socket operation was attempted to an unreachable network.
+Stack:
+1.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:67
+2.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:69
+3.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:69
+4.  NewMarkerMaker/internal/logic.Setup
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:38
+5.  NewMarkerMaker/internal/logic.ReConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:54
+
+2023-03-10 11:26:16.289 [ERRO] dial tcp 192.168.9.27:5672: connectex: A socket operation was attempted to an unreachable host.
+Stack:
+1.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:67
+2.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:69
+3.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:69
+4.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:69
+5.  NewMarkerMaker/internal/logic.Setup
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:38
+6.  NewMarkerMaker/internal/logic.ReConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:54
+
+2023-03-10 11:26:19.299 [ERRO] dial tcp 192.168.9.27:5672: connectex: A socket operation was attempted to an unreachable host.
+Stack:
+1.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:67
+2.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:69
+3.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:69
+4.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:69
+5.  NewMarkerMaker/internal/logic.(*mq).getConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:69
+6.  NewMarkerMaker/internal/logic.Setup
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:38
+7.  NewMarkerMaker/internal/logic.ReConn
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:54
+
+2023-03-10 13:30:12.915 [INFO] rabbitmq connection is established
+2023-03-10 13:30:18.469 [WARN] connection closed, error %s Exception (501) Reason: "read tcp 192.168.9.145:8450->192.168.9.27:5672: wsarecv: An established connection was aborted by the software in your host machine."
+2023-03-10 13:30:39.515 [INFO] rabbitmq connection is established
+2023-03-10 13:34:27.708 [INFO] rabbitmq connection is established
+2023-03-10 14:09:25.423 [INFO] rabbitmq connection is established
+2023-03-10 14:14:16.190 [INFO] rabbitmq connection is established
+2023-03-10 14:14:16.213 [INFO] send msg: 2023-03-10 14:14:16
+2023-03-10 14:14:19.225 [INFO] send msg: 2023-03-10 14:14:19
+2023-03-10 14:14:21.756 [WARN] connection closed, error %s Exception (501) Reason: "read tcp 192.168.9.145:23345->192.168.9.27:5672: wsarecv: An established connection was aborted by the software in your host machine."
+2023-03-10 14:14:22.226 [ERRO] Exception (504) Reason: "channel/connection is not open"
+Stack:
+1.  NewMarkerMaker/internal/logic.SendMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:187
+2.  main.main.func1
+    D:/Work/NewMM/NewMarkerMaker/main.go:19
+
+2023-03-10 14:14:25.231 [ERRO] Exception (504) Reason: "channel/connection is not open"
+Stack:
+1.  NewMarkerMaker/internal/logic.SendMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:187
+2.  main.main.func1
+    D:/Work/NewMM/NewMarkerMaker/main.go:19
+
+2023-03-10 14:14:28.240 [ERRO] Exception (504) Reason: "channel/connection is not open"
+Stack:
+1.  NewMarkerMaker/internal/logic.SendMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:187
+2.  main.main.func1
+    D:/Work/NewMM/NewMarkerMaker/main.go:19
+
+2023-03-10 14:14:31.246 [ERRO] Exception (504) Reason: "channel/connection is not open"
+Stack:
+1.  NewMarkerMaker/internal/logic.SendMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:187
+2.  main.main.func1
+    D:/Work/NewMM/NewMarkerMaker/main.go:19
+
+2023-03-10 14:14:34.253 [ERRO] Exception (504) Reason: "channel/connection is not open"
+Stack:
+1.  NewMarkerMaker/internal/logic.SendMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:187
+2.  main.main.func1
+    D:/Work/NewMM/NewMarkerMaker/main.go:19
+
+2023-03-10 14:14:36.814 [INFO] rabbitmq connection is established
+2023-03-10 14:14:37.266 [INFO] send msg: 2023-03-10 14:14:37
+2023-03-10 14:14:40.273 [INFO] send msg: 2023-03-10 14:14:40

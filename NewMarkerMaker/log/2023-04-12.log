@@ -1,0 +1,714 @@
+2023-04-12 08:59:19.616 [INFO] rabbitmq connection is established
+2023-04-12 09:09:15.804 [INFO] rabbitmq connection is established
+2023-04-12 09:09:37.024 [INFO] rabbitmq connection is established
+2023-04-12 09:10:09.526 [INFO] rabbitmq connection is established
+2023-04-12 09:14:23.949 [INFO] rabbitmq connection is established
+2023-04-12 10:09:04.338 [INFO] rabbitmq connection is established
+2023-04-12 10:11:57.124 [INFO] rabbitmq connection is established
+2023-04-12 10:12:06.359 [INFO] rabbitmq connection is established
+2023-04-12 10:12:24.914 [INFO] rabbitmq connection is established
+2023-04-12 10:13:41.342 [INFO] rabbitmq connection is established
+2023-04-12 10:14:28.277 [INFO] rabbitmq connection is established
+2023-04-12 10:15:58.283 [INFO] rabbitmq connection is established
+2023-04-12 10:18:14.591 [INFO] rabbitmq connection is established
+2023-04-12 10:23:19.213 [INFO] rabbitmq connection is established
+2023-04-12 10:24:54.887 [INFO] rabbitmq connection is established
+2023-04-12 10:31:12.391 [INFO] rabbitmq connection is established
+2023-04-12 10:37:53.504 [INFO] rabbitmq connection is established
+2023-04-12 10:40:57.097 [INFO] rabbitmq connection is established
+2023-04-12 10:41:17.659 [INFO] rabbitmq connection is established
+2023-04-12 10:41:45.910 [INFO] rabbitmq connection is established
+2023-04-12 10:46:40.770 [INFO] rabbitmq connection is established
+2023-04-12 10:46:57.345 [INFO] rabbitmq connection is established
+2023-04-12 10:48:18.504 [INFO] rabbitmq connection is established
+2023-04-12 10:59:04.760 [INFO] rabbitmq connection is established
+2023-04-12 11:06:04.424 [INFO] rabbitmq connection is established
+2023-04-12 11:06:22.596 [INFO] rabbitmq connection is established
+2023-04-12 11:13:17.117 [INFO] rabbitmq connection is established
+2023-04-12 11:15:48.007 [INFO] rabbitmq connection is established
+2023-04-12 11:23:31.498 [INFO] rabbitmq connection is established
+2023-04-12 11:23:47.961 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 11:23:47.962 [WARN] connection closed, error %s Exception (501) Reason: "read tcp 192.168.9.145:58476->192.168.9.27:5672: wsarecv: An established connection was aborted by the software in your host machine."
+2023-04-12 11:23:48.964 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 11:23:49.972 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 11:23:50.988 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 11:23:51.999 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 11:23:53.014 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 11:23:54.015 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 11:23:55.026 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 11:23:56.041 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 11:23:57.052 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 11:23:58.067 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 11:23:59.075 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 11:24:00.006 [INFO] rabbitmq connection is established
+2023-04-12 11:29:59.699 [INFO] rabbitmq connection is established
+2023-04-12 11:31:11.608 [INFO] rabbitmq connection is established
+2023-04-12 11:31:33.761 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:245
+
+2023-04-12 11:31:33.766 [WARN] connection closed, error %s Exception (501) Reason: "read tcp 192.168.9.145:1480->192.168.9.27:5672: wsarecv: An established connection was aborted by the software in your host machine."
+2023-04-12 11:31:34.794 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:245
+
+2023-04-12 11:31:35.801 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:245
+
+2023-04-12 11:31:36.811 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:245
+
+2023-04-12 11:31:37.822 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:245
+
+2023-04-12 11:31:38.829 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:245
+
+2023-04-12 11:31:39.842 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:245
+
+2023-04-12 11:31:40.854 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:245
+
+2023-04-12 11:31:41.868 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:245
+
+2023-04-12 11:31:42.880 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:245
+
+2023-04-12 11:31:43.894 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:245
+
+2023-04-12 11:31:44.906 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:245
+
+2023-04-12 11:31:45.914 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:245
+
+2023-04-12 11:31:46.928 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:245
+
+2023-04-12 11:31:47.943 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:245
+
+2023-04-12 11:31:48.848 [INFO] rabbitmq connection is established
+2023-04-12 11:32:56.679 [INFO] rabbitmq connection is established
+2023-04-12 11:37:31.785 [INFO] rabbitmq connection is established
+2023-04-12 11:38:42.194 [WARN] connection closed, error %s Exception (501) Reason: "write tcp 192.168.9.145:1388->192.168.9.27:5672: wsasend: An existing connection was forcibly closed by the remote host."
+2023-04-12 11:38:42.205 [INFO] rabbitmq connection is established
+2023-04-12 13:03:19.559 [INFO] rabbitmq connection is established
+2023-04-12 13:16:14.462 [INFO] rabbitmq connection is established
+2023-04-12 13:16:29.235 [WARN] connection closed, error %s Exception (501) Reason: "read tcp 192.168.9.145:6350->192.168.9.27:5672: wsarecv: An established connection was aborted by the software in your host machine."
+2023-04-12 13:16:29.235 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 13:16:30.238 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 13:16:31.251 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 13:16:32.264 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 13:16:33.273 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 13:16:34.281 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 13:16:35.293 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 13:16:36.302 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 13:16:37.311 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 13:16:38.321 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 13:16:39.335 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 13:16:40.346 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 13:16:41.303 [INFO] rabbitmq connection is established
+2023-04-12 13:19:56.687 [INFO] rabbitmq connection is established
+2023-04-12 13:20:05.831 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 13:20:05.833 [WARN] connection closed, error %s Exception (501) Reason: "read tcp 192.168.9.145:1260->192.168.9.27:5672: wsarecv: An established connection was aborted by the software in your host machine."
+2023-04-12 13:20:06.854 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 13:20:07.867 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 13:20:08.883 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 13:20:09.885 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 13:20:10.897 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 13:20:11.900 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 13:20:12.902 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 13:20:13.909 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 13:20:14.912 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 13:20:15.922 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 13:20:16.936 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 13:20:17.946 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 13:20:18.954 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 13:20:19.965 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 13:20:20.976 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 13:20:21.983 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 13:20:22.997 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:243
+
+2023-04-12 13:20:23.895 [INFO] rabbitmq connection is established
+2023-04-12 13:22:02.198 [INFO] rabbitmq connection is established
+2023-04-12 13:22:13.274 [WARN] connection closed, error %s Exception (501) Reason: "read tcp 192.168.9.145:1283->192.168.9.27:5672: wsarecv: An established connection was aborted by the software in your host machine."
+2023-04-12 13:22:28.330 [INFO] rabbitmq connection is established
+2023-04-12 13:23:48.312 [INFO] rabbitmq connection is established
+2023-04-12 13:24:14.319 [WARN] connection closed, error %s Exception (501) Reason: "read tcp 192.168.9.145:1202->192.168.9.27:5672: wsarecv: An established connection was aborted by the software in your host machine."
+2023-04-12 13:24:26.375 [INFO] rabbitmq connection is established
+2023-04-12 13:25:59.212 [INFO] rabbitmq connection is established
+2023-04-12 13:26:10.127 [INFO] rabbitmq connection is established
+2023-04-12 13:27:45.660 [INFO] rabbitmq connection is established
+2023-04-12 13:28:07.495 [INFO] rabbitmq connection is established
+2023-04-12 13:28:56.890 [INFO] rabbitmq connection is established
+2023-04-12 13:30:34.999 [INFO] rabbitmq connection is established
+2023-04-12 13:30:56.025 [WARN] connection closed, error %s Exception (501) Reason: "read tcp 192.168.9.145:14344->192.168.9.27:5672: wsarecv: An established connection was aborted by the software in your host machine."
+2023-04-12 13:31:14.083 [INFO] rabbitmq connection is established
+2023-04-12 13:32:56.458 [INFO] rabbitmq connection is established
+2023-04-12 13:33:32.150 [INFO] rabbitmq connection is established
+2023-04-12 13:33:40.484 [WARN] connection closed, error %s Exception (501) Reason: "read tcp 192.168.9.145:1303->192.168.9.27:5672: wsarecv: An established connection was aborted by the software in your host machine."
+2023-04-12 13:33:55.563 [INFO] rabbitmq connection is established
+2023-04-12 13:43:52.773 [INFO] rabbitmq connection is established
+2023-04-12 13:44:44.334 [INFO] rabbitmq connection is established
+2023-04-12 13:49:56.579 [INFO] rabbitmq connection is established
+2023-04-12 14:09:21.446 [INFO] rabbitmq connection is established
+2023-04-12 14:12:45.701 [INFO] rabbitmq connection is established
+2023-04-12 14:13:42.222 [WARN] connection closed, error %s Exception (501) Reason: "write tcp 192.168.9.145:2991->192.168.9.27:5672: wsasend: An existing connection was forcibly closed by the remote host."
+2023-04-12 14:13:42.853 [INFO] rabbitmq connection is established
+2023-04-12 14:15:13.147 [INFO] rabbitmq connection is established
+2023-04-12 14:19:37.240 [WARN] connection closed, error %s Exception (501) Reason: "read tcp 192.168.9.145:3090->192.168.9.27:5672: wsarecv: An existing connection was forcibly closed by the remote host."
+2023-04-12 14:19:37.252 [INFO] rabbitmq connection is established
+2023-04-12 14:21:42.046 [WARN] connection closed, error %s Exception (501) Reason: "read tcp 192.168.9.145:3427->192.168.9.27:5672: wsarecv: An existing connection was forcibly closed by the remote host."
+2023-04-12 14:21:42.059 [INFO] rabbitmq connection is established
+2023-04-12 14:24:52.268 [INFO] rabbitmq connection is established
+2023-04-12 14:27:52.393 [WARN] connection closed, error %s Exception (501) Reason: "read tcp 192.168.9.145:3725->192.168.9.27:5672: i/o timeout"
+2023-04-12 14:27:54.158 [INFO] rabbitmq connection is established
+2023-04-12 14:29:49.743 [WARN] connection closed, error %s Exception (501) Reason: "read tcp 192.168.9.145:3829->192.168.9.27:5672: wsarecv: An existing connection was forcibly closed by the remote host."
+2023-04-12 14:29:49.755 [INFO] rabbitmq connection is established
+2023-04-12 14:32:01.419 [WARN] connection closed, error %s Exception (501) Reason: "read tcp 192.168.9.145:3943->192.168.9.27:5672: wsarecv: An existing connection was forcibly closed by the remote host."
+2023-04-12 14:32:01.438 [INFO] rabbitmq connection is established
+2023-04-12 14:33:24.689 [INFO] rabbitmq connection is established
+2023-04-12 14:35:19.737 [WARN] connection closed, error %s Exception (501) Reason: "read tcp 192.168.9.145:4091->192.168.9.27:5672: wsarecv: An existing connection was forcibly closed by the remote host."
+2023-04-12 14:35:19.754 [INFO] rabbitmq connection is established
+2023-04-12 14:37:15.964 [INFO] rabbitmq connection is established
+2023-04-12 14:38:48.817 [INFO] rabbitmq connection is established
+2023-04-12 14:40:05.913 [WARN] connection closed, error %s Exception (501) Reason: "read tcp 192.168.9.145:4631->192.168.9.27:5672: wsarecv: An existing connection was forcibly closed by the remote host."
+2023-04-12 14:40:05.923 [INFO] rabbitmq connection is established
+2023-04-12 14:43:01.617 [INFO] rabbitmq connection is established
+2023-04-12 14:46:27.669 [INFO] rabbitmq connection is established
+2023-04-12 14:47:22.240 [WARN] connection closed, error %s Exception (501) Reason: "read tcp 192.168.9.145:5157->192.168.9.27:5672: wsarecv: An existing connection was forcibly closed by the remote host."
+2023-04-12 14:47:22.240 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:245
+
+2023-04-12 14:47:22.251 [INFO] rabbitmq connection is established
+2023-04-12 15:13:20.933 [INFO] rabbitmq connection is established
+2023-04-12 15:19:11.021 [INFO] rabbitmq connection is established
+2023-04-12 15:19:54.122 [INFO] rabbitmq connection is established
+2023-04-12 15:21:28.749 [INFO] rabbitmq connection is established
+2023-04-12 15:24:37.628 [WARN] connection closed, error %s Exception (501) Reason: "read tcp 192.168.9.145:7887->192.168.9.27:5672: i/o timeout"
+2023-04-12 15:24:37.628 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:245
+
+2023-04-12 15:24:37.639 [INFO] rabbitmq connection is established
+2023-04-12 15:25:56.409 [WARN] connection closed, error %s Exception (501) Reason: "read tcp 192.168.9.145:8077->192.168.9.27:5672: wsarecv: An existing connection was forcibly closed by the remote host."
+2023-04-12 15:25:56.409 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:245
+
+2023-04-12 15:25:56.409 [ERRO] receive queue (server2ClientQueue) is closed . waiting to reconnect
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMsg
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:245
+
+2023-04-12 15:25:56.421 [INFO] rabbitmq connection is established
+2023-04-12 16:37:15.542 [INFO] rabbitmq connection is established
+2023-04-12 17:11:29.089 [INFO] rabbitmq connection is established
+2023-04-12 17:11:29.849 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.850 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.850 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.850 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.851 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.852 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.853 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.853 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.854 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.854 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.865 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.866 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.867 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.867 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.868 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.868 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.868 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.869 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.869 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.869 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.870 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.870 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.870 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.871 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.871 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.871 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.871 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.872 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.872 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.872 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.883 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.885 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.885 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.885 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:29.886 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:30.850 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:30.850 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:30.850 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:30.852 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:30.853 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:30.853 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:30.853 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:30.854 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:30.855 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:30.855 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:30.866 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:30.868 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:30.868 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:30.868 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:30.869 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:30.869 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:30.869 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:30.870 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:30.870 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:30.872 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:30.872 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:30.872 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:30.872 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:30.873 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:30.873 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+
+2023-04-12 17:11:30.874 [ERRO] json: cannot unmarshal string into Go struct field MarketDataSnapshotFullRefreshVo.SettlType of type int
+Stack:
+1.  NewMarkerMaker/internal/logic.ReceiveMMHQ
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:151
+

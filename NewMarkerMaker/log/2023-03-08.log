@@ -1,0 +1,9 @@
+2023-03-08 15:10:16.240 [ERRO] {343a0b9903604a172c88593242b896cc} write tcp 192.168.9.145:36065->192.168.9.27:5672: wsasend: An existing connection was forcibly closed by the remote host.
+Stack:
+1.  NewMarkerMaker/internal/consts.LogOnError
+    D:/Work/NewMM/NewMarkerMaker/internal/consts/consts.go:45
+2.  NewMarkerMaker/internal/logic.client2ServerChannel
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:118
+3.  NewMarkerMaker/internal/logic.init.0
+    D:/Work/NewMM/NewMarkerMaker/internal/logic/mqLogic.go:25
+
